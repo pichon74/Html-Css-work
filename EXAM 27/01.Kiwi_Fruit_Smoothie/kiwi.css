@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lato:ital,wght@0,700;1,300&family=Montserrat&family=PT+Serif&family=Pacifico&family=Roboto&display=swap');
+
+/*font-family: 'PT Serif', serif;*/
+main{
+/*    background-image: url(01.Kiwi_Fruit_Smoothie/image/image1.png);*/
+    box-sizing: border-box;
+    margin: 150px;
+font-family: 'PT Serif', serif;
+/*    border: 1px solid black;*/
+  box-shadow: 5px 5px 31px 5px rgba(0,0,0,0.34);
+}
+
+main{
+    display: flex;
+}
+
+.sec_2 img{
+    width: 500px;
+    padding: 20px;
+}
+
+.sec_1 h1{
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+hr{
+ width: 450px;
+    border-top: 1px dotted green;
+}
+span.serves,.total{
+    margin-left: 20px;
+}
+span.total{
+    position: relative;
+    left: 200px;
+}
+
+div.receipt{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.receipt p{
+    margin-bottom: -8px;
+}
+.receipt p span{
+    color: green;
+    font-weight:600;
+}
+
+.last_text{
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.table{
+    margin-top: 48px;
+    margin-left: 20px;
+}
+table,tr,th,td{
+     border: 1px solid green;
+  border-collapse: collapse;
+    width: 450px;
+}
+table,td{
+    padding-left: 60px;
+}
+
+.sec_1{
+        background-image: url(image/image1.png);
+}
